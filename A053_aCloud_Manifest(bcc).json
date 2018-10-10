@@ -1,0 +1,158 @@
+{
+  "fields": [
+    {
+      "name": "GPIO",
+      "children": [
+        {
+          "name": "gpio46",
+          "type": "CUSTOM",
+          "valueClass": "Integer",
+          "isCollection": false,
+          "tags": [],
+          "metaData": [
+            {
+              "type": "VALUES_INTEGER",
+              "value": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "name": "gpio47",
+          "type": "CUSTOM",
+          "valueClass": "Integer",
+          "isCollection": false,
+          "tags": [],
+          "metaData": [
+            {
+              "type": "VALUES_INTEGER",
+              "value": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "name": "gpio48",
+          "type": "CUSTOM",
+          "valueClass": "Integer",
+          "isCollection": false,
+          "tags": [],
+          "metaData": [
+            {
+              "type": "VALUES_INTEGER",
+              "value": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "name": "gpio50",
+          "type": "CUSTOM",
+          "valueClass": "Integer",
+          "isCollection": false,
+          "tags": [],
+          "metaData": [
+            {
+              "type": "VALUES_INTEGER",
+              "value": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ADC",
+      "children": [
+        {
+          "name": "Channel0",
+          "type": "CUSTOM",
+          "valueClass": "Integer",
+          "isCollection": false,
+          "description": "ADC Channel 0",
+          "tags": []
+        },
+        {
+          "name": "Channel1",
+          "type": "CUSTOM",
+          "valueClass": "Integer",
+          "isCollection": false,
+          "description": "ADC Channel 1",
+          "tags": []
+        },
+        {
+          "name": "Channel2",
+          "type": "CUSTOM",
+          "valueClass": "Integer",
+          "isCollection": false,
+          "description": "ADC Channel 2",
+          "tags": []
+        },
+        {
+          "name": "Channel3",
+          "type": "CUSTOM",
+          "valueClass": "Integer",
+          "isCollection": false,
+          "description": "ADC Channel 3",
+          "tags": []
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "GPIO46ON",
+      "description": "Gpio 46 ON",
+      "parameters": [],
+      "isStandard": false,
+      "type": "CUSTOM"
+    },
+    {
+      "name": "GPIO47ON",
+      "description": "Gpio 47 ON",
+      "isStandard": false,
+      "type": "CUSTOM"
+    },
+    {
+      "name": "GPIO48ON",
+      "description": "Gpio 48 ON",
+      "isStandard": false,
+      "type": "CUSTOM"
+    },
+    {
+      "name": "GPIO50ON",
+      "description": "Gpio 50 ON",
+      "isStandard": false,
+      "type": "CUSTOM"
+    },
+    {
+      "name": "GPIO46OFF",
+      "description": "Gpio 46 Off",
+      "type": "CUSTOM"
+    },
+    {
+      "name": "GPIO47OFF",
+      "description": "Gpio 47 OFF",
+      "type": "CUSTOM"
+    },
+    {
+      "name": "GPIO48OFF",
+      "description": "Gpio 48 Off",
+      "type": "CUSTOM"
+    },
+    {
+      "name": "GPIO50OFF",
+      "description": "Gpio 50 Off",
+      "type": "CUSTOM"
+    }
+  ],
+  "messageFormat": "json"
+}
