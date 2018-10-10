@@ -1,0 +1,51 @@
+{
+  "fields": [
+    {
+      "name": "Sensors",
+      "children": [
+        {
+          "name": "Temp",
+          "type": "CUSTOM",
+          "valueClass": "Float",
+          "isCollection": false,
+          "tags": [],
+          "isSensitive": false,
+          "unitSymbol": "??
+        },
+        {
+          "name": "Brightness",
+          "type": "CUSTOM",
+          "valueClass": "Integer",
+          "isCollection": false,
+          "tags": [],
+          "isSensitive": false
+        },
+        {
+          "name": "aaasd",
+          "type": "CUSTOM",
+          "valueClass": "Integer",
+          "isCollection": false,
+          "tags": [],
+          "isSensitive": false
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "setOn",
+      "description": "Set state to On",
+      "parameters": [],
+      "isStandard": true,
+      "type": "CUSTOM"
+    },
+    {
+      "name": "setOff",
+      "description": "Set state to Off",
+      "parameters": [],
+      "isStandard": true,
+      "type": "CUSTOM"
+    }
+  ],
+  "messageFormat": "json"
+}
